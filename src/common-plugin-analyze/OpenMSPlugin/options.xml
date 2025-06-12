@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<settings
+    xmlns="http://xml.first-ms3d.jp/masspp/settings"
+    xsi:schemaLocation="http://xml.first-ms3d.jp/masspp/settings http://first-ms3d.jp/development/masspp-settings110.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <chapters>
+    <chapter id="0">Thirdparty</chapter>
+  </chapters>
+  <values>
+    <value id="0" type="dir" required="false" />
+  </values>
+  <params>
+    <param id="0" value="0">
+      <param-name>dir</param-name>
+      <param-section>OpenMS</param-section>
+      <param-key>OPENMS_HOME</param-key>
+    </param>
+  </params>
+  <pages>
+    <page chapter="0" common="true">
+      <page-name>common</page-name>
+      <page-title>OpenMS</page-title>
+      <forms>
+        <form id="0" param="0">
+          <form-title>OpenMS Home</form-title>
+          <form-desc>Set the OpenMS home directory.</form-desc>
+        </form>
+      </forms>
+    </page>
+  </pages>
+</settings>
+
